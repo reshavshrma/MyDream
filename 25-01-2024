@@ -1,0 +1,18 @@
+/*Now lets try and solve the following
+
+Accept 3 space separated integers given in a line into 3 variables - A, B and C.
+Print them out to a single line on the console*/
+
+import java.util.Scanner;
+
+class Codechef
+{
+	public static void main (String[] args)
+	{
+        Scanner objName = new Scanner(System.in);
+        int A = objName.nextInt();
+        int B = objName.nextInt();
+        int C = objName.nextInt();
+		System.out.println(A + " " + B + " " + C);
+	}
+}
