@@ -1,0 +1,31 @@
+Accepts 
+2
+2 space separated alphanumeric strings as input in 
+1
+�
+�
+1 
+st
+  line as the variables 
+�
+A, 
+�
+B
+Accepts 
+3
+3 space separated alphanumeric strings as input in 
+2
+�
+�
+2 
+nd
+  line as the variables 
+�
+C, 
+�
+D, 
+�
+E
+Prints out 
+5
+5 space separated strings as output in a single line to the console
