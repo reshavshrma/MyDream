@@ -1,31 +1,21 @@
-Accepts 
-2
-2 space separated alphanumeric strings as input in 
-1
-�
-�
-1 
-st
-  line as the variables 
-�
-A, 
-�
-B
-Accepts 
-3
-3 space separated alphanumeric strings as input in 
-2
-�
-�
-2 
-nd
-  line as the variables 
-�
-C, 
-�
-D, 
-�
-E
-Prints out 
-5
-5 space separated strings as output in a single line to the console
+/*Accept 2 space separated alphanumeric strings as input in the 1st line as the variables - A, B
+3 space separated alphanumeric strings as input in the 2nd line as the variables - C, D, E
+Prints out 5 space separated strings as output in a single line to the console*/
+
+
+import java.util.Scanner;
+
+class Codechef
+{
+	public static void main (String[] args)
+	{
+        Scanner read = new Scanner(System.in);
+        
+        String A = read.next();
+        String B = read.next();
+        String C = read.next();
+        String D = read.next();
+        String E = read.next();
+        System.out.print(A + " " + B + " " + C + " " + D + " " + E );
+	}
+}
