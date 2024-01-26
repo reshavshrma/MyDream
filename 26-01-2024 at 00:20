@@ -1,0 +1,28 @@
+/* Write a program in the IDE which does the following
+
+Accepts the count of test cases - t - in the 1st line
+First line of each test case consists of a string S
+You need to perform the following operation
+Create a variable X which contains the string S concatenated with the string S
+Output X for each test case */
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ //accept the count of test cases given in the the 1st line
+ cin>>t;
+ //Run a loop to accept 't' inputs
+while(t--)
+ { 
+   string S,X;
+   cin>>S;
+ //Store the value of string S concatenated with itself to variable X
+   X = X + S;
+   cout<<X << S<<endl;
+  }
+ 
+}
