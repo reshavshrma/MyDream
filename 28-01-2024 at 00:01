@@ -1,0 +1,29 @@
+/* Let's write a program in the IDE which performs the following
+
+The 1st line of input is an integer - T - the count of test cases
+Each test case consists of 2 lines of input
+The 1st line of input has 2 space separated integers - accept them as variables a and b
+The 2nd line of input has 3 space separated integers - accept them as variables c, d and e
+For each test case - output all integers on a single line */
+
+
+import java.util.Scanner;
+
+class Codechef
+{
+	public static void main (String[] args)
+	{
+        Scanner read = new Scanner(System.in);
+        int t = read.nextInt();
+        
+        for(int i=0; i<t; i++)
+        {
+            int a = read.nextInt();
+            int b = read.nextInt();
+            int c = read.nextInt();
+            int d = read.nextInt();
+            int e = read.nextInt();
+            System.out.println(a + " " + b + " " + c + " " + d + " " + e);
+        }
+	}
+}
